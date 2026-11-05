@@ -1,10 +1,10 @@
 ---
 type: Index
 description: "Главная карта знаний; начать здесь и перейти только в нужную область."
-created: "{{CREATED}}"
+created: "2026-11-05"
 ---
 
-# {{WORKSPACE_NAME}} — карта
+# Personal OS — карта
 
 | Задача | Вход |
 |---|---|

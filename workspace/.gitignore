@@ -16,9 +16,6 @@ temp/*
 # Local app state.
 .DS_Store
 .cache/
-__pycache__/
 .obsidian/workspace*.json
 .obsidian/cache/
 .obsidian/plugins/*/data.json
-# Runtime provenance includes local paths; keep it local.
-.personal-os.json

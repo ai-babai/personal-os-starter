@@ -1,10 +1,4 @@
-# Private deployment inputs and outputs never belong in the starter.
 /local/
-/profiles/
-*.local.json
 .env
 .env.*
-!.env.example
-__pycache__/
-*.pyc
 .DS_Store

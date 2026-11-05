@@ -1,7 +1,7 @@
 ---
 type: Scratch Guide
 description: "Назначение удаляемого scratch-каталога без долговечных знаний и секретов."
-created: "{{CREATED}}"
+created: "2026-11-05"
 ---
 
 # Временная работа
