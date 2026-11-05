@@ -1,0 +1,24 @@
+# Only policy documentation is tracked in secrets/.
+secrets/*
+!secrets/README.md
+# Disposable data.
+temp/*
+!temp/README.md
+# Credential/state formats do not belong in knowledge Git.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.session
+*.session-journal
+# Local app state.
+.DS_Store
+.cache/
+__pycache__/
+.obsidian/workspace*.json
+.obsidian/cache/
+.obsidian/plugins/*/data.json
+# Runtime provenance includes local paths; keep it local.
+.personal-os.json

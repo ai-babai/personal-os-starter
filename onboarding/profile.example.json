@@ -1,0 +1,9 @@
+{
+  "workspace_name": "Personal OS",
+  "owner_label": "Владелец",
+  "agent_name": "Ассистент",
+  "language": "ru",
+  "address_form": "уточнить при знакомстве",
+  "timezone": "UTC",
+  "code_root": "~/develop"
+}
