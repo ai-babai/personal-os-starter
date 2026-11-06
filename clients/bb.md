@@ -9,7 +9,7 @@ created: "2026-11-05"
 Читать при подключении OS к BB или работе с его потоками и окружениями.
 Для обычной задачи в знаниях достаточно корневых инструкций Personal OS.
 
-Источник: [Personal OS Starter — ветка system](https://github.com/ai-babai/personal-os-starter/blob/design/system-layout/clients/bb.md).
+Источник: [Personal OS Starter](https://github.com/ai-babai/personal-os-starter/blob/main/clients/bb.md).
 Команды сверены со справкой BB **0.48.1**. На другой версии сначала проверь
 `bb guide` и `bb <команда> --help`; пример не заменяет действующий контракт CLI.
 
@@ -22,14 +22,14 @@ created: "2026-11-05"
    самой Personal OS для онбординга не нужен.
 3. Сохрани этот файл в `system/tools/clients/bb.md` относительно личного корня и добавь
    ссылку в `system/tools/INDEX.md`. Исходник можно взять из комплекта или по
-   [прямой ссылке](https://raw.githubusercontent.com/ai-babai/personal-os-starter/design/system-layout/clients/bb.md).
+   [прямой ссылке](https://raw.githubusercontent.com/ai-babai/personal-os-starter/main/clients/bb.md).
    Существующую локальную версию сначала сравни; пользовательские дополнения сохрани.
 4. Для постоянного входа добавь короткий блок в `.bb/AGENTS.md` внутри корня OS.
    Сохрани прежние инструкции. Текст блока:
 
    ```text
    Personal OS находится в корне этой рабочей папки.
-   Начни с README.md, AGENTS.md и system/agent/BOOTSTRAP.md.
+   Начни с INDEX.md, AGENTS.md и system/agent/BOOTSTRAP.md.
    Перед работой с BB прочитай system/tools/clients/bb.md.
    Подробности знаний раскрывай только по текущей задаче.
    ```

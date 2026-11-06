@@ -8,7 +8,7 @@ created: "2026-11-05"
 
 [О проекте](../README.md) · [Онбординг](../onboarding/README.md)
 
-У Personal OS общий вход: `README.md` → `AGENTS.md` → `system/agent/BOOTSTRAP.md`.
+У Personal OS общий вход: `INDEX.md` → `AGENTS.md` → `system/agent/BOOTSTRAP.md`.
 Он подходит для Codex, Claude Code, OpenCode, BB и других клиентов с доступом
 к файлам. На старте достаточно явно указать агенту корень и эти документы.
 Автоматическое обнаружение файлов у клиентов отличается и проверяется отдельно.
@@ -20,7 +20,7 @@ created: "2026-11-05"
 
 | Клиент | Когда читать | Инструкция |
 |---|---|---|
-| BB | Подключение OS, окружения, потоки и разрешённое делегирование | [BB](../clients/bb.md) · [скачать Markdown](https://raw.githubusercontent.com/ai-babai/personal-os-starter/design/system-layout/clients/bb.md) |
+| BB | Подключение OS, окружения, потоки и разрешённое делегирование | [BB](../clients/bb.md) · [скачать Markdown](https://raw.githubusercontent.com/ai-babai/personal-os-starter/main/clients/bb.md) |
 | Другой клиент | Нужен постоянный вход или специфичная возможность | Его актуальная штатная справка; отдельного пакета в стартере пока нет |
 
 Если комплект уже скачан, используй локальный файл. Если доступна только ссылка
