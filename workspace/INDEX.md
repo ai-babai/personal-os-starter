@@ -8,8 +8,8 @@ created: "2026-11-06"
 
 | Что нужно | Где искать |
 |---|---|
-| Личные знания, профиль и предпочтения | [personal/INDEX.md](personal/INDEX.md) |
-| Задачи, решения и ссылки на код | [projects/INDEX.md](projects/INDEX.md) |
+| Знания, профиль и предпочтения пользователя | [personal/INDEX.md](personal/INDEX.md) |
+| Проекты пользователя: задачи, решения и результаты | [projects/INDEX.md](projects/INDEX.md) |
 | Память агента, инструменты, навыки и правила | [system/INDEX.md](system/INDEX.md) |
 
 При входе примени [AGENTS.md](AGENTS.md) и [порядок старта](system/agent/BOOTSTRAP.md).

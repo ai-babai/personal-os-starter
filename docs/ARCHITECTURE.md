@@ -31,8 +31,8 @@ Personal OS — обычные файлы на диске. Клиент и мо�
 
 ## Один источник каждого факта
 
-- Профиль — `personal/profile.md`, предпочтения общения — `personal/preferences.md`.
-- Рабочая роль агента — `system/agent/identity.md`, короткая память — `system/agent/memory.md`.
+- Профиль пользователя — `personal/profile.md`, его предпочтения общения — `personal/preferences.md`.
+- Личность и рабочая роль агента — `system/agent/identity.md`, его короткая память — `system/agent/memory.md`.
 - Текущее состояние — у задачи; в проекте, если для неё создана карта. Память ссылается на него.
 - Процедура инструмента — в `system/tools/<capability>/README.md`.
 - Исходный код — в отдельном репозитории; в OS хранится ссылка на него.
