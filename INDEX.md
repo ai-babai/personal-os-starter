@@ -11,7 +11,7 @@ created: "2026-11-05"
 | Развернуть или дополнить OS для владельца | [Онбординг для агента](onboarding/README.md) |
 | Понять пользу и принципы | [README](README.md) |
 | Посмотреть личную OS | [Карта workspace](workspace/README.md) |
-| Посмотреть устройство ветки system | [Проект структуры](docs/SYSTEM-LAYOUT-PROPOSAL.md) |
+| Посмотреть устройство ветки system | [Структура и изменения](docs/SYSTEM-LAYOUT-PROPOSAL.md) |
 | Подключить конкретный клиент | [Каталог клиентов](docs/CLIENTS.md) |
 | Уточнить устройство знаний | [Архитектура](docs/ARCHITECTURE.md) |
 | Добавить инструмент | [Подключения](docs/INTEGRATIONS.md) |
