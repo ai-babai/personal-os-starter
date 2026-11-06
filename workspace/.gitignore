@@ -1,9 +1,9 @@
-# Only policy documentation is tracked in secrets/.
-secrets/*
-!secrets/README.md
+# Only policy documentation is tracked in system/secrets/.
+system/secrets/*
+!system/secrets/README.md
 # Disposable data.
-temp/*
-!temp/README.md
+system/temp/*
+!system/temp/README.md
 # Credential/state formats do not belong in knowledge Git.
 .env
 .env.*
