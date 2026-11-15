@@ -6,7 +6,7 @@ created: "2026-11-15"
 
 # Проверки поведения
 
-[![Карта навигации Personal OS: обращения к personal, projects и system, результаты учебного поиска и принцип постепенного раскрытия.](reports/assets/navigation-2026-11-15.png)](reports/2026-11-15-navigation.md)
+[![Карта навигации Personal OS: обращения к personal, projects и system, результаты учебного поиска, восемь моделей и принцип постепенного раскрытия.](reports/assets/navigation-2026-11-15.png)](reports/2026-11-15-navigation.md)
 
 [Карта крупнее, замеры и выводы о структуре](reports/2026-11-15-navigation.md).
 Исторические обращения показаны в проекции на нынешние разделы стартера.
