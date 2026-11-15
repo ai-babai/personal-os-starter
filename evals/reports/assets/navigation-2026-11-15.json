@@ -1,0 +1,470 @@
+{
+  "snapshot": "2026-10-31",
+  "prepared": "2026-11-15",
+  "starter_version": "0.4.1",
+  "interpretation": "Исторические события сгруппированы по назначению нынешних областей. Это не замер поведения после изменения структуры.",
+  "history": {
+    "period": [
+      "2026-03-02",
+      "2026-10-31"
+    ],
+    "unit": "уникальное сочетание инструментального вызова, операции и нормализованного пути",
+    "exclude_selected_startup_reads": true,
+    "all_visits": 20098,
+    "all_sessions": 1169,
+    "excluded_startup_visits": 4765,
+    "visits": 15333,
+    "sessions": 944,
+    "missing": 172,
+    "zones": {
+      "root": {
+        "visits": 1201,
+        "sessions": 360,
+        "missing": 3,
+        "operations": {
+          "search": 1063,
+          "list": 104,
+          "read": 29,
+          "navigate": 3,
+          "metadata": 2
+        }
+      },
+      "personal": {
+        "visits": 1176,
+        "sessions": 152,
+        "missing": 12,
+        "operations": {
+          "read": 351,
+          "search": 686,
+          "list": 115,
+          "metadata": 24
+        }
+      },
+      "projects": {
+        "visits": 7053,
+        "sessions": 409,
+        "missing": 108,
+        "operations": {
+          "list": 354,
+          "read": 2308,
+          "search": 4245,
+          "metadata": 145,
+          "navigate": 1
+        }
+      },
+      "system": {
+        "visits": 5903,
+        "sessions": 605,
+        "missing": 49,
+        "operations": {
+          "read": 3146,
+          "search": 2333,
+          "list": 313,
+          "metadata": 111
+        }
+      }
+    },
+    "system": {
+      "system/agent": {
+        "visits": 388,
+        "sessions": 116,
+        "missing": 3,
+        "operations": {
+          "read": 104,
+          "metadata": 7,
+          "search": 260,
+          "list": 17
+        }
+      },
+      "system/docs": {
+        "visits": 367,
+        "sessions": 87,
+        "missing": 5,
+        "operations": {
+          "read": 222,
+          "metadata": 4,
+          "search": 126,
+          "list": 15
+        }
+      },
+      "system/infra": {
+        "visits": 3553,
+        "sessions": 237,
+        "missing": 34,
+        "operations": {
+          "read": 1724,
+          "search": 1659,
+          "list": 124,
+          "metadata": 46
+        }
+      },
+      "system/secrets": {
+        "visits": 153,
+        "sessions": 52,
+        "missing": 2,
+        "operations": {
+          "list": 49,
+          "metadata": 20,
+          "search": 42,
+          "read": 42
+        }
+      },
+      "system/skills": {
+        "visits": 413,
+        "sessions": 92,
+        "missing": 2,
+        "operations": {
+          "read": 404,
+          "search": 5,
+          "metadata": 3,
+          "list": 1
+        }
+      },
+      "system/temp": {
+        "visits": 684,
+        "sessions": 266,
+        "missing": 2,
+        "operations": {
+          "list": 78,
+          "search": 90,
+          "metadata": 14,
+          "read": 502
+        }
+      },
+      "system/tools": {
+        "visits": 344,
+        "sessions": 90,
+        "missing": 1,
+        "operations": {
+          "read": 148,
+          "search": 150,
+          "list": 29,
+          "metadata": 17
+        }
+      },
+      "system/unallocated": {
+        "visits": 1,
+        "sessions": 1,
+        "missing": 0,
+        "operations": {
+          "search": 1
+        }
+      }
+    }
+  },
+  "navigation_trials": {
+    "models": [
+      "gpt-6-astra",
+      "gpt-6.1-sol",
+      "gpt-6.1-terra",
+      "deepseek/deepseek-v4.1-flash-1017",
+      "minimax/minimax-m3.1-flash",
+      "qwen/qwen3.8-flash",
+      "x-ai/grok-4.7",
+      "openai/gpt-6-luna"
+    ],
+    "tasks_per_batch": 16,
+    "repeats": 3,
+    "modes": {
+      "names": {
+        "zones": {
+          "system": {
+            "trials": 240,
+            "success": 220,
+            "missing": 1,
+            "wrong_type": 1,
+            "actions": 635
+          },
+          "personal": {
+            "trials": 96,
+            "success": 94,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 251
+          },
+          "projects": {
+            "trials": 48,
+            "success": 48,
+            "missing": 1,
+            "wrong_type": 0,
+            "actions": 117
+          }
+        },
+        "system": {
+          "system/infra": {
+            "trials": 48,
+            "success": 46,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 125
+          },
+          "system/secrets": {
+            "trials": 24,
+            "success": 24,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 35
+          },
+          "system/temp": {
+            "trials": 24,
+            "success": 23,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 48
+          },
+          "system/docs": {
+            "trials": 48,
+            "success": 41,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 157
+          },
+          "system/tools": {
+            "trials": 24,
+            "success": 23,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 58
+          },
+          "system/skills": {
+            "trials": 24,
+            "success": 23,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 58
+          },
+          "system/agent": {
+            "trials": 48,
+            "success": 40,
+            "missing": 1,
+            "wrong_type": 1,
+            "actions": 154
+          }
+        },
+        "models": {
+          "gpt-6-astra": {
+            "trials": 48,
+            "success": 48,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 118
+          },
+          "gpt-6.1-sol": {
+            "trials": 48,
+            "success": 48,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 125
+          },
+          "gpt-6.1-terra": {
+            "trials": 48,
+            "success": 48,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 141
+          },
+          "deepseek/deepseek-v4.1-flash-1017": {
+            "trials": 48,
+            "success": 44,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 103
+          },
+          "minimax/minimax-m3.1-flash": {
+            "trials": 48,
+            "success": 41,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 119
+          },
+          "qwen/qwen3.8-flash": {
+            "trials": 48,
+            "success": 44,
+            "missing": 2,
+            "wrong_type": 1,
+            "actions": 128
+          },
+          "x-ai/grok-4.7": {
+            "trials": 48,
+            "success": 48,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 115
+          },
+          "openai/gpt-6-luna": {
+            "trials": 48,
+            "success": 41,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 154
+          }
+        },
+        "total": {
+          "trials": 384,
+          "success": 362,
+          "missing": 2,
+          "wrong_type": 1,
+          "actions": 1003
+        }
+      },
+      "links": {
+        "zones": {
+          "system": {
+            "trials": 240,
+            "success": 216,
+            "missing": 5,
+            "wrong_type": 0,
+            "actions": 681
+          },
+          "personal": {
+            "trials": 96,
+            "success": 96,
+            "missing": 0,
+            "wrong_type": 1,
+            "actions": 272
+          },
+          "projects": {
+            "trials": 48,
+            "success": 48,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 125
+          }
+        },
+        "system": {
+          "system/infra": {
+            "trials": 48,
+            "success": 47,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 139
+          },
+          "system/secrets": {
+            "trials": 24,
+            "success": 24,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 34
+          },
+          "system/temp": {
+            "trials": 24,
+            "success": 22,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 51
+          },
+          "system/docs": {
+            "trials": 48,
+            "success": 39,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 162
+          },
+          "system/tools": {
+            "trials": 24,
+            "success": 21,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 70
+          },
+          "system/skills": {
+            "trials": 24,
+            "success": 22,
+            "missing": 2,
+            "wrong_type": 0,
+            "actions": 68
+          },
+          "system/agent": {
+            "trials": 48,
+            "success": 41,
+            "missing": 3,
+            "wrong_type": 0,
+            "actions": 157
+          }
+        },
+        "models": {
+          "gpt-6-astra": {
+            "trials": 48,
+            "success": 48,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 122
+          },
+          "gpt-6.1-sol": {
+            "trials": 48,
+            "success": 47,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 134
+          },
+          "gpt-6.1-terra": {
+            "trials": 48,
+            "success": 48,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 156
+          },
+          "deepseek/deepseek-v4.1-flash-1017": {
+            "trials": 48,
+            "success": 41,
+            "missing": 1,
+            "wrong_type": 0,
+            "actions": 123
+          },
+          "minimax/minimax-m3.1-flash": {
+            "trials": 48,
+            "success": 44,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 127
+          },
+          "qwen/qwen3.8-flash": {
+            "trials": 48,
+            "success": 44,
+            "missing": 4,
+            "wrong_type": 1,
+            "actions": 136
+          },
+          "x-ai/grok-4.7": {
+            "trials": 48,
+            "success": 47,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 138
+          },
+          "openai/gpt-6-luna": {
+            "trials": 48,
+            "success": 41,
+            "missing": 0,
+            "wrong_type": 0,
+            "actions": 142
+          }
+        },
+        "total": {
+          "trials": 384,
+          "success": 360,
+          "missing": 5,
+          "actions": 1078,
+          "wrong_type": 1
+        }
+      }
+    },
+    "success_rule": "Прочитан целевой документ и возвращён его точный встроенный код.",
+    "caveat": "Учебные тела и прежнее дерево. Задачи внутри batch коррелируют; режим со ссылками добавлен после анализа первой серии, с одним дополнительным отвлекающим файлом."
+  },
+  "projection_rules": [
+    "Корневые обращения сохранены отдельной группой.",
+    "personal и projects сохранены на первом уровне.",
+    "Служебные области сгруппированы внутри system.",
+    "Прежние tools/skills и tools/adapters отнесены к system/skills.",
+    "Два обращения к инструкции из прежней агентской области отнесены к system/tools; одно обращение к общей прежней папке навыков агента осталось без точного подраздела.",
+    "Временные материалы сгруппированы по назначению; это не утверждение об их фактическом переносе."
+  ],
+  "privacy": "Только агрегаты основных областей и учебных испытаний. Без частных подпапок, имён, путей хоста, идентификаторов сессий, текстов запросов и бюджетов.",
+  "source_sha256": {
+    "history.json": "deda6cb13c4e1b5ba70c4311b23935761fd136517757de502e701370bd64a1c0",
+    "events.jsonl": "70a24f8c02ab24d40760c85e3e9d05fab0a12bb487df89c89198bf24530efd48",
+    "benchmark.json": "3cea3b9dd870d7fe38eee7b22424b55515af7b373dd97ca89be0f08d50aad5fa",
+    "linked/benchmark.json": "2c0222d58ab621b11845b226f5bb85aa138502d40d9f0e5c4800acbfc0187f76"
+  }
+}
