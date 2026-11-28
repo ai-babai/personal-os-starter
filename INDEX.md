@@ -10,7 +10,7 @@ created: "2026-11-05"
 |---|---|
 | Развернуть или дополнить OS для владельца | [Онбординг для агента](onboarding/README.md) |
 | Перенести существующую OS на эту структуру | [Миграция](onboarding/MIGRATION.md) |
-| Понять пользу и принципы | [README](README.md) |
+| Понять пользу и принципы | [Русский](README.ru.md) · [English](README.md) |
 | Посмотреть личную OS | [Карта workspace](workspace/INDEX.md) |
 | Узнать историю перехода к system | [Структура и проверка](docs/SYSTEM-LAYOUT-PROPOSAL.md) |
 | Подключить конкретный клиент | [Каталог клиентов](docs/CLIENTS.md) |

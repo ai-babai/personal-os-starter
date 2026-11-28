@@ -6,7 +6,7 @@ created: "2026-11-05"
 
 # Агентские клиенты
 
-[О проекте](../README.md) · [Онбординг](../onboarding/README.md)
+[О проекте](../README.ru.md) · [English](../README.md) · [Онбординг](../onboarding/README.md)
 
 У Personal OS общий вход: `INDEX.md` → `AGENTS.md` → `system/agent/BOOTSTRAP.md`.
 Он подходит для Codex, Claude Code, OpenCode, BB и других клиентов с доступом
